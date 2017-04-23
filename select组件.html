@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+		<script src="./vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div style="float: left;">
+				<h2>查询下拉框</h2>
+				<custom-select btn="查询" v-bind:list="list1"></custom-select>
+			</div>
+			<div style="float:left;">
+				<h2>搜索下拉框</h2>
+				<custom-select btn="搜索" v-bind:list="list2"></custom-select>
+			</div>
+		</div>
+		<script src="./select.js"></script>
+	</body>
+</html>
